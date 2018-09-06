@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'haml'
 gem "paperclip", "~> 6.0.0"
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
+# gem 'sass-rails', '>= 3.2'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

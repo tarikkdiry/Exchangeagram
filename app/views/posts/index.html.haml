@@ -1,1 +1,21 @@
 %h1 Exchangeagram
+
+-# -@posts.each do |post|
+-#   =image_tag post.image.url(:medium)
+-#   =post.caption
+
+-# -@posts.each do |post|
+-#   .row  
+-#     =link_to (image_tag post.image.url(:medium)), post_path(post)
+-#     %p= post.caption
+
+.posts-wrapper.row
+  -@posts.each do |post|
+    .post
+      .post-head
+        .name
+          Tarik Kdiry
+      .image.center-block
+        =link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post)
+      %p.caption
+        =post.caption
